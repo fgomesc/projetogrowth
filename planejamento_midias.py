@@ -8,7 +8,7 @@ def perguntar_gpt(conversa):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
+        "Authorization": "Bearer APY_KEY_CHATGPT"
     }
     data = {
         "model": "gpt-4",
